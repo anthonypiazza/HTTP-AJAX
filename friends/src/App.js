@@ -64,9 +64,7 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <FriendList 
-          friends={this.state.friends}
-        />
+        <FriendList friends={this.state.friends} />
         <Form 
           name={this.state.name}
           age={this.state.age}
